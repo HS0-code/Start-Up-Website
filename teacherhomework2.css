@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+#header {
+  height: 59px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  position: fixed;
+  top: 0px;
+}
+
+#header-left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#header-right {
+  height: 100%;
+  display: flex;
+}
+
+#header a {
+  height: 100%;
+  padding: 0 16px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#header-right div {
+  height: 100%;
+  padding: 0 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+#header-left:hover {
+  background-color: lightgray;
+}
+
+#header-right div:hover {
+  background-color: lightgray;
+}
+
+#intro {
+  height: 812px;
+  background-image: url("https://www.w3schools.com/w3images/mac.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 48px;
+}
+
+#intro h1 {
+  font-size: 64px;
+}
+
+#intro p {
+  font-size: 18px;
+}
+
+#intro button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: lightgray;
+  margin-top: 16px;
+  border: none;
+  width: 270px;
+}
+
+#introicons {
+  position: absolute;
+  left: 48px;
+  bottom: 48px;
+  color: gray;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+}
+
+#about-bottom {
+  display: flex;
+  gap: 20px;
+}
+
+.about-bottom-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.about-bottom-item p {
+  font-size: 15px;
+}
+
+#promo {
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+  height: 540px;
+  background-color: lightgray;
+  align-items: center;
+  padding-left: 20px;
+}
+
+#promo-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  width: 100vw;
+  flex-direction: column;
+}
+
+#team-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80px;
+  width: 100vw;
+}
+
+#team-cards {
+  height: 600px;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.card {
+  height: 480px;
+  width: 330px;
+  background-color: white;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-direction: column;
+}
+
+.card-image {
+  width: 330px;
+}
+
+.card-info {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact-button {
+  width: 290px;
+
+  background-color: #f1f1f1;
+  height: 45px;
+  border: none;
+}
+
+#grayarea {
+  height: 250px;
+  width: 100vw;
+  background-color: #616161;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.grayquarter {
+  width: 200px;
+  height: 100px;
+  background-color: #616161;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+#work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  margin-top: 200px;
+}
+
+.imgHover :hover {
+  opacity: 0.5;
+}
+
+.work-images {
+  margin-bottom: 70px;
+}
+
+.work-images :hover {
+  opacity: 0.5;
+}
+
+#lightgraytext {
+  font-size: 24px;
+  padding-left: 45px;
+  padding-top: 64px;
+}
+
+.lightgray-smalltext {
+  font-size: 15px;
+  padding-left: 45px;
+  padding-top: 15px;
+  padding-right: 200px;
+}
+
+.graypercentagebar {
+  height: 28px;
+  width: 355px;
+  color: white;
+  background-color: gray;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#longgrayarea {
+  height: 1037px;
+  width: 100vw;
+  background-color: gray;
+  color: white;
+}
+
+#footerblackpart {
+  height: 289px;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#footerblackpart button {
+  padding: 12px 24px;
+  font-size: 15px;
+  background-color: lightgray;
+  margin-top: 16px;
+  border: none;
+  width: 132px;
+  margin-bottom: 25px;
+}
